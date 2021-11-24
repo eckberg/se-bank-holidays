@@ -2,17 +2,16 @@
   "name": "se-bank-holidays",
   "version": "1.0.0",
   "description": "Swedish Bank Holidays (sv. bankhelgdagar) implementation in Typescript",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "repository": "github:eckberg/se-bank-holidays",
   "scripts": {
     "test": "npm run test:se && npm run test:us",
     "test:se": "TZ=Europe/Stockholm jest",
     "test:us": "TZ=US/Pacific jest",
     "build": "rimraf dist && ./node_modules/rollup/dist/bin/rollup -c",
-    "test:import": "./node_modules/ts-node/dist/bin.js test/first.ts",
-    "dev": "npm run build && npm run test:import",
     "format": "prettier --write ."
   },
-  "author": "Karl Eckberg",
+  "author": "Karl Eckberg <karl@eckberg.se> (http://github.com/eckberg)",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.16.0",

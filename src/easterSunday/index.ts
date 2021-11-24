@@ -2,7 +2,7 @@ import { isSunday } from "../sunday";
 import addDays from "../utils/addDays";
 import isSameDay from "../utils/isSameDay";
 import startOfDay from "../utils/startOfDay";
-import { phaseRange } from "../utils/lunar"
+import { phaseRange } from "../utils/lunar";
 
 /*
   Easter sunday (påskdagen) is the sunday after the full moon
@@ -21,11 +21,7 @@ export function easterSundayForYear(year: number): Date {
   searchRangeEnd.setUTCMonth(searchRangeStart.getUTCMonth() + 1);
 
   // Get full moon phases occuring after March 21
-  const lunarPhases = phaseRange(
-    searchRangeStart,
-    searchRangeEnd,
-    2
-  );
+  const lunarPhases = phaseRange(searchRangeStart, searchRangeEnd, 2);
 
   // First full moon after March 21
   // Add one day, "sunday after the full moon"

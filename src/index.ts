@@ -16,6 +16,9 @@ import isNationalDay from "./nationalDay";
 import isNewYearsDay from "./newYearsDay";
 import isNewYearsEve from "./newYearsEve";
 import isPentecost from "./pentecost";
+import addDays from "./utils/addDays";
+import isSameDay from "./utils/isSameDay";
+import startOfDay from "./utils/startOfDay";
 import subDays from "./utils/subDays";
 import isWeekend from "./weekend";
 import isWhitsunEve from "./whitsunEve";
@@ -42,4 +45,7 @@ export {
   isBoxingDay,
   isNewYearsEve,
   subDays,
+  addDays,
+  isSameDay,
+  startOfDay,
 };
