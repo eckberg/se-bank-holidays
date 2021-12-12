@@ -22,6 +22,15 @@ import startOfDay from "./operations/startOfDay";
 import subDays from "./operations/subDays";
 import isWeekend from "./days/weekend";
 import isWhitsunEve from "./days/whitsunEve";
+import closestBankDay from "./operations/closestBankDay";
+import closestBankHoliday from "./operations/closestBankHoliday";
+import endOfMonth from "./operations/endOfMonth";
+import endOfYear from "./operations/endOfYear";
+import nextBankDay from "./operations/nextBankDay";
+import nextBankHoliday from "./operations/nextBankHoliday";
+import previousBankDay from "./operations/previousBankDay";
+import previousBankHoliday from "./operations/previousBankHoliday";
+import startOfMonth from "./operations/startOfMonth";
 
 export {
   isHoliday,
@@ -48,4 +57,13 @@ export {
   addDays,
   isSameDay,
   startOfDay,
+  startOfMonth,
+  endOfMonth,
+  endOfYear,
+  closestBankDay,
+  closestBankHoliday,
+  nextBankDay,
+  nextBankHoliday,
+  previousBankDay,
+  previousBankHoliday
 };
