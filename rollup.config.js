@@ -15,7 +15,7 @@ export default {
       sourcemap: false,
     },
     {
-      name: "se-bank-holidays",
+      name: "SEBankHolidays",
       format: "umd",
       file: "dist/index.min.js",
       sourcemap: false,
