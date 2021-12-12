@@ -31,6 +31,8 @@ import nextBankHoliday from "./operations/nextBankHoliday";
 import previousBankDay from "./operations/previousBankDay";
 import previousBankHoliday from "./operations/previousBankHoliday";
 import startOfMonth from "./operations/startOfMonth";
+import subBankDays from "./operations/subBankDays";
+import addBankDays from "./operations/addBankDays";
 
 export {
   isHoliday,
@@ -54,7 +56,9 @@ export {
   isBoxingDay,
   isNewYearsEve,
   subDays,
+  subBankDays,
   addDays,
+  addBankDays,
   isSameDay,
   startOfDay,
   startOfMonth,
