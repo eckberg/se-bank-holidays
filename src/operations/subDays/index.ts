@@ -1,6 +1,6 @@
 export default function subDays(
   referenceDate: Date = new Date(),
-  subDays: number,
+  subDays: number
 ) {
   const date = new Date(+referenceDate);
 

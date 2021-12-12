@@ -1,6 +1,4 @@
-export default function endOfMonth(
-  referenceDate: Date = new Date(),
-) {
+export default function endOfMonth(referenceDate: Date = new Date()) {
   const date = new Date(+referenceDate);
 
   date.setUTCMonth(11);

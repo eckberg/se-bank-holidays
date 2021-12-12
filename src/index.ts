@@ -65,5 +65,5 @@ export {
   nextBankDay,
   nextBankHoliday,
   previousBankDay,
-  previousBankHoliday
+  previousBankHoliday,
 };

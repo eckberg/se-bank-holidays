@@ -8,8 +8,8 @@ export default function closestBankDay(referenceDate: Date = new Date()) {
   const prev = previousBankDay(date);
   const next = nextBankDay(date);
 
-  const prevDiff = diffInCalendarDays(date, prev)
-  const nextDiff = diffInCalendarDays(date, next)
+  const prevDiff = diffInCalendarDays(date, prev);
+  const nextDiff = diffInCalendarDays(date, next);
 
-  return prevDiff < nextDiff ? prev : next
+  return prevDiff < nextDiff ? prev : next;
 }

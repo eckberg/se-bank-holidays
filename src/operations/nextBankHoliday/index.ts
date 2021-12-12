@@ -8,8 +8,8 @@ export default function nextBankHoliday(referenceDate: Date = new Date()) {
     return date;
   }
 
-  while(!isHoliday(date)) {
-    date = addDays(date, 1)
+  while (!isHoliday(date)) {
+    date = addDays(date, 1);
   }
 
   return date;
