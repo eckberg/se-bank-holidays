@@ -1,6 +1,6 @@
 {
   "name": "se-bank-holidays",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Swedish Bank Holidays (sv. bankhelgdagar) implementation in Typescript",
   "main": "dist/index.js",
   "repository": "github:eckberg/se-bank-holidays",
