@@ -10,6 +10,7 @@ Typescript library for looking up Swedish Bank Holidays (bankhelgdagar). Zero de
 ### Node
 
 Install using [npm](https://www.npmjs.com/):
+
 ```bash
 npm install se-bank-holidays
 ```
@@ -17,21 +18,24 @@ npm install se-bank-holidays
 Then require it to any module:
 
 ```typescript
-const holidays = require('se-bank-holidays');
+const holidays = require("se-bank-holidays");
 
-const test = holidays.isHoliday(new Date('2021-12-24')); // => true
+const test = holidays.isHoliday(new Date("2021-12-24")); // => true
 ```
 
 ### Browser
+
 To use the library in browser, use generally available CDN solutions, or download and use distribution files directly in your code (`dist/index.js`, `dist/index.min.js` or `dist/index.mjs`).
 
-
 ## TODO
+
 [ ] Improved documentation
-[ ] Timezone support
+[ ] Timezone support (consider implementing https://github.com/js-joda/js-joda)
 
 ## Credits
+
 Creds to https://github.com/ryanseys/lune for inspiring on the lunar calculation utiility, use in this library.
 
 ## License
+
 MIT
