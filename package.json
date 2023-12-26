@@ -4,7 +4,10 @@
   "description": "Swedish Bank Holidays (sv. bankhelgdagar) implementation in Typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "github:eckberg/se-bank-holidays",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eckberg/se-bank-holidays.git"
+  },
   "scripts": {
     "test": "npm run test:se && npm run test:us",
     "test:se": "TZ=Europe/Stockholm jest",
