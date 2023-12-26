@@ -33,6 +33,7 @@ import previousBankHoliday from "./operations/previousBankHoliday";
 import startOfMonth from "./operations/startOfMonth";
 import subBankDays from "./operations/subBankDays";
 import addBankDays from "./operations/addBankDays";
+import nextSunday from "./operations/nextSunday";
 
 export {
   isHoliday,
@@ -68,6 +69,7 @@ export {
   closestBankHoliday,
   nextBankDay,
   nextBankHoliday,
+  nextSunday,
   previousBankDay,
   previousBankHoliday,
 };
